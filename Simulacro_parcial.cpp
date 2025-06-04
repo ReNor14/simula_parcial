@@ -27,41 +27,7 @@ if (consumo < 100){
 }else{
     cout<< "Tu tarifa es alta"<<endl;
 }
-
-/* Días en un Mes
-Pide el número de un mes y muestra cuántos días tiene.*/
-
-cout<< "Hola de nuevo"<<endl;
-cout<< "Digita un numero que este entre el 1 y el 12:"<<endl;
-cin >>mes;
-
-if (mes > 12 && mes < 0){
-
-    cout<< "Ingrese un numero correcto, porfavor."<<endl; 
-}else{
-    switch(mes){
-        case 1:
-        cout<<""<<endl;
-         case 2:
-        cout<<""<<endl;
-         case 3:
-        cout<<""<<endl;
-         case 4:
-        cout<<""<<endl;
-        case 4:
-        cout<<""<<endl;
-        case 4:
-        cout<<""<<endl;
-        case 4:
-        cout<<""<<endl;
-        case 4:
-        cout<<""<<endl;
-        case 4:
-        cout<<""<<endl;
-
-    }
-}
-
+    
 return 0;
 
 }
